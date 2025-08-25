@@ -38,6 +38,7 @@ To make it bullet-proof for replication, add three small pieces:
 | arxiv-titles-384-angular-filters          | 6.5G | | |
 | arxiv-titles-384-angular-no-filters       | 3.3G | 4.0K | 12G |
 | dbpedia-openai-100K-1536-angular          | 658M | 4.0K | 1.6G |
-| dbpedia-openai-1M-1536-angular            | 5.7G | | |
+| dbpedia-openai-1M-1536-angular            | 5.7G | 4.0K | 17G |
 | gist-960-euclidean                        | 3.7G | 4.0K | 8.5G |
 
+The dataset arxiv-titles-384-angular-filters could not be ingested into Milvus because its filter schema defines duplicate field names, which Milvus rejects at collection creation. Qdrant’s schemaless payload system tolerates this inconsistency. All other datasets, including those with filters, ran successfully on both engines.
