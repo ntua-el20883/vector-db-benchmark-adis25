@@ -1,0 +1,20 @@
+{
+  "params": {
+    "dataset": "arxiv-titles-384-angular-no-filters",
+    "experiment": "milvus-on-disk-default",
+    "engine": "milvus",
+    "parallel": 8,
+    "config": {}
+  },
+  "results": {
+    "total_time": 93.92847220000112,
+    "mean_time": 0.04712700620666971,
+    "mean_precisions": 0.9920066666666666,
+    "std_time": 0.059206859893631794,
+    "min_time": 0.00648430000001099,
+    "max_time": 0.9838541999997688,
+    "rps": 159.69598619746122,
+    "p95_time": 0.06251110500052162,
+    "p99_time": 0.33507292699898245
+  }
+}

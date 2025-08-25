@@ -1,0 +1,15 @@
+{
+  "params": {
+    "experiment": "milvus-on-disk-default",
+    "engine": "milvus",
+    "dataset": "random-match-int-100-angular-filters",
+    "parallel": 4,
+    "index_type": "DISKANN",
+    "index_params": {}
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 199.48064599999998,
+    "total_time": 959.2776311000016
+  }
+}

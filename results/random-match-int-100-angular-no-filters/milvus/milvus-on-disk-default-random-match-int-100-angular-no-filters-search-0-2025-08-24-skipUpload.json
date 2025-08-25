@@ -1,0 +1,20 @@
+{
+  "params": {
+    "dataset": "random-match-int-100-angular-no-filters",
+    "experiment": "milvus-on-disk-default",
+    "engine": "milvus",
+    "parallel": 8,
+    "config": {}
+  },
+  "results": {
+    "total_time": 8.096122900002229,
+    "mean_time": 0.003792910010016931,
+    "mean_precisions": 0.5429200000000001,
+    "std_time": 0.011140948783192429,
+    "min_time": 0.0019702999998116866,
+    "max_time": 0.3979516000035801,
+    "rps": 1235.1591154819607,
+    "p95_time": 0.004339744997196248,
+    "p99_time": 0.0049172749998979285
+  }
+}

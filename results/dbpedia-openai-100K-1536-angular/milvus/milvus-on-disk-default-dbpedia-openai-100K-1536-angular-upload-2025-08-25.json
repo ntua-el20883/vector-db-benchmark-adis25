@@ -1,0 +1,15 @@
+{
+  "params": {
+    "experiment": "milvus-on-disk-default",
+    "engine": "milvus",
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "parallel": 4,
+    "index_type": "DISKANN",
+    "index_params": {}
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 12.869063300000562,
+    "total_time": 454.61612759999844
+  }
+}

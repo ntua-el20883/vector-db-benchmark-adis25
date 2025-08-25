@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "arxiv-titles-384-angular-filters",
+    "experiment": "qdrant-on-disk-default",
+    "engine": "qdrant",
+    "parallel": 8,
+    "config": {
+      "hnsw_ef": 128
+    }
+  },
+  "results": {
+    "total_time": 18.24488399999973,
+    "mean_time": 0.010888380790024894,
+    "mean_precisions": 0.9961040000000001,
+    "std_time": 0.008499335096507714,
+    "min_time": 0.0018784000021696556,
+    "max_time": 0.1896575999999186,
+    "rps": 548.0988533552829,
+    "p95_time": 0.019149470000411343,
+    "p99_time": 0.04311654899738646
+  }
+}

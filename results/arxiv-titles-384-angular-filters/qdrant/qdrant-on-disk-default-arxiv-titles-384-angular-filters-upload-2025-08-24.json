@@ -1,0 +1,20 @@
+{
+  "params": {
+    "experiment": "qdrant-on-disk-default",
+    "engine": "qdrant",
+    "dataset": "arxiv-titles-384-angular-filters",
+    "parallel": 4,
+    "optimizers_config": {
+      "memmap_threshold": 10000,
+      "max_optimization_threads": 0
+    },
+    "hnsw_config": {
+      "on_disk": true
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 257.42878740000015,
+    "total_time": 907.907093400001
+  }
+}
